@@ -58,6 +58,7 @@ expected = df_raw.iloc[:,  [5, 6, 7, 8, 9]].dropna(how='all').rename(columns=lam
 print(f'Match expected: 🐍✅ #{df_result.to_dict() == expected.to_dict()}\n')  # True si todo coincide
 
 # 💾 Exportación opcional
-# df_input.to_excel("project_allocated_to_employees_output.xlsx", index=False)
+# df_result.to_excel("project_allocated_to_employees_output.xlsx", index=False)
+
 
 ---
